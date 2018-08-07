@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+    <script src="js/scripts.js"></script>
+    <title>Peek-a-boo</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Peek-a-boo</h1>
+      <p><strong>Peek-a-boo</strong> is an ancient game riddled in mystery and deceit. Though it appears to be an innocent children's pastime, you may change your mind when you learn of its treacherous history.</p>
+
+      <div class="item-showing">
+        <p>Let's play peek-a-boo. <span class="clickable">Click here</span> to see the surprise!</p>
+      </div>
+
+      <div class="item-hidden">
+        <p>What a cute walrus! <span class="clickable">Click here</span> to hide her again.</p>
+        <img src="img/walrus.jpg">
+
+        <p>
+          <span class="hiddenclickable">Peek-a-boo. I'm hiding.!!!!</span>
+          <br><img src="img/walrus.jpg" id="anotherImage">
+        </p>
+      </div>
+      <div class="item-hidden">
+        <p class="sandcastle">
+          Learn to build sandcastles with a walrus.
+        </p>
+        <br><img src="img/sandcastle.jpeg" id="thirdImage">
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,33 @@
+.item-hidden {
+  display: none;
+}
+
+.clickable, .hiddenclickable {
+  cursor: pointer;
+  color: #0088cc;
+}
+
+.clickable:hover, .hiddenclickable:hover {
+  text-decoration: underline;
+}
+
+img {
+  width: 400px;
+}
+
+#anotherImage {
+  display: none;
+}
+
+.sandcastle {
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.sandcastle:hover {
+  text-decoration: underline;
+}
+
+body {
+  background-color: #b3e0ff;
+}
